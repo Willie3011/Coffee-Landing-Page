@@ -37,3 +37,16 @@ A responsive, modern website for a coffee shop located in Berndorf, Germany. Thi
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/coffee-shop-website.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd coffee-shop-website
+   ```
+3. Open ```index.html``` in your preferred web browser.
+
+## Credits
+- Developed by **Willem April**
+- Icons by Font Awesome
+- Slider by Swiper.js
+- Fonts from Google Fonts
+
