@@ -298,6 +298,7 @@ header .navbar {
 }
 
 .testimonials-section .testimonial {
+    user-select: none;
     display: flex;
     padding: 35px;
     text-align: center;
@@ -430,6 +431,40 @@ header .navbar {
 .contact-section .contact-form .submit-button:hover {
     color: var(--primary-color);
     background: transparent;
+}
+
+/* footer section */
+.footer-section {
+    padding: 20px 0;
+    background: var(--dark-color);
+}
+
+.footer-section .section-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-section :where(.copyright-text, .social-link, .policy-link) {
+    color: var(--white-color);
+    transition: 0.2s ease;
+}
+
+.footer-section .social-link-list {
+    display: flex;
+    gap: 25px;
+}
+
+.footer-section .social-link-list .social-link {
+    font-size: var(--font-size-l);
+}
+.footer-section .social-link-list .social-link:hover, .footer-section .policy-text .policy-link:hover {
+    color: var(--secondary-color);
+}
+
+.footer-section .policy-text .policy-link .separator {
+    margin: 0 5px;
+    color: var(--white-color);
 }
 
 
@@ -580,5 +615,10 @@ header .navbar {
 
   .testimonials-section .swiper-slide-button {
     display: none;
+  }
+
+  .footer-section .section-content {
+    flex-direction: column;
+    gap: 20px;
   }
 }
